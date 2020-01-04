@@ -1,4 +1,5 @@
 {
+    "powershell.scriptAnalysis.settingsPath": ".vscode/analyzersettings.psd1",
     "powershell.codeFormatting.openBraceOnSameLine": false,
     "powershell.codeFormatting.newLineAfterOpenBrace": true,
     "powershell.codeFormatting.newLineAfterCloseBrace": true,
@@ -7,11 +8,11 @@
     "powershell.codeFormatting.whitespaceAroundOperator": true,
     "powershell.codeFormatting.whitespaceAfterSeparator": true,
     "powershell.codeFormatting.ignoreOneLineBlock": false,
-    "powershell.codeFormatting.preset": "Custom",
     "powershell.codeFormatting.alignPropertyValuePairs": true,
+    "powershell.codeFormatting.preset": "Custom",
+    "editor.formatOnSave": true,
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
-    "powershell.scriptAnalysis.settingsPath": ".vscode\\analyzersettings.psd1",
     "powershell.scriptAnalysis.enable": true,
     "files.associations": {
         "*.ps1xml": "xml"
@@ -34,5 +35,13 @@
     "[markdown]": {
         "files.trimTrailingWhitespace": false,
         "files.encoding": "utf8"
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "node_modules": true,
+        "markdownissues.txt": true
     }
 }
